@@ -8,12 +8,18 @@
  * http://www.lesscss.org
  */
 
+@hints-color: #c5c8c6;
+@hints-opacity: 0.3;
+
 .tree-view {
 
 }
 
 .editor {
-
+  .invisible-character {
+    color: @hints-color;
+    opacity: @hints-opacity;
+  }
 }
 
 .editor .cursor {
@@ -29,13 +35,4 @@
   color: #fff;
   background: #DA2C43;
   opacity: 0.9;
-}
-
-.editor .git-line-added.line-number {
-  background-color: #859900;
-  color: white;
-}
-.editor .git-line-removed.line-number {
-  background-color: #dc322f;
-  color: white;
 }
