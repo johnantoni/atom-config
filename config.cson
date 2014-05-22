@@ -1,0 +1,36 @@
+'exception-reporting':
+  'userId': 'e1ae7ba8-7194-e5b6-e3a2-31869e7eecf4'
+'release-notes':
+  'viewedVersion': '0.95.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '5de72f6690b9288f94a2fe5dbdc4c35263ada564'
+'editor':
+  'fontSize': 13
+  'showIndentGuide': true
+  'showInvisibles': true
+  'invisibles':
+    'cr': '↩'
+    'eol': ''
+    'space': '·'
+    'tab': '⇥'
+'core':
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+    '.gitkeep'
+    'tmp'
+    '.bundle'
+    'log'
+    'bundle'
+    '.sass-cache'
+    'node_modules'
+    '*.dump'
+    '*.pgdump'
+    '*.log'
+  ]
+  'projectHome': '/Users/john/projects'
+'tree-view':
+  'hideIgnoredNames': true
