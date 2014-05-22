@@ -9,7 +9,7 @@ config files are kept in ~/.atom
 
 enable REACT Editor to use the more experimental and somewhat faster editor
 
-#### Keyboard mapping
+### Keyboard mapping
 
     CMD+OPT+<   = goto left tab
     CMD+OPT+>   = goto right tab
