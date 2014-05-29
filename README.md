@@ -15,6 +15,7 @@ enable REACT Editor to use the more experimental and somewhat faster editor
     ..
     npm install -g coffeelint 
     npm install -g csslint
+    gem install scss-lint
     gem install rubocop
     ..custom jslint found in ~/.dotfiles/bin from johnantoni
 
