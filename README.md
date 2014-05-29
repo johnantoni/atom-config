@@ -9,6 +9,12 @@ config files are kept in ~/.atom
 
 enable REACT Editor to use the more experimental and somewhat faster editor
 
+#### modules
+
+Install globally = -g
+
+    npm install -g coffeelint 
+
 ### Keyboard mapping
 
     CMD+OPT+<   = goto left tab
