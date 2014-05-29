@@ -9,11 +9,14 @@ config files are kept in ~/.atom
 
 enable REACT Editor to use the more experimental and somewhat faster editor
 
-#### modules
+#### linters
 
-Install globally = -g
-
+    -g = install globally
+    ..
     npm install -g coffeelint 
+    npm install -g csslint
+    gem install rubocop
+    ..custom jslint found in ~/.dotfiles/bin from johnantoni
 
 ### Keyboard mapping
 
