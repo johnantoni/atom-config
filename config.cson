@@ -18,6 +18,7 @@
 'core':
   'ignoredNames': [
     '.git'
+    '.gems'
     '.svn'
     '.DS_Store'
     '.gitkeep'
