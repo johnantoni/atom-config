@@ -8,8 +8,8 @@
   'userId': '5de72f6690b9288f94a2fe5dbdc4c35263ada564'
 'editor':
   'fontSize': 13
-  'showIndentGuide': true
   'showInvisibles': true
+  'normalizeIndentOnPaste': false
   'invisibles':
     'cr': '↩'
     'eol': ''
@@ -33,5 +33,30 @@
     '*.log'
   ]
   'projectHome': '/Users/john/projects'
+  'themes': [
+    'atom-light-ui'
+    'solarized-light-syntax'
+  ]
+  'disabledPackages': [
+    'sublime-tabs'
+  ]
 'tree-view':
   'hideIgnoredNames': true
+'atom-lint':
+  'ignoredNames': [
+    'tmp/**'
+  ]
+  'csslint':
+    'path': '/usr/local/bin/csslint'
+  'jshint':
+    'path': '/usr/local/bin/jshint'
+  'rubocop':
+    'path': '/Users/john/.rbenv/shims/rubocop'
+  'scss-lint':
+    'path': '/Users/john/.rbenv/shims/scss-lint'
+'zen-tabs':
+  'maximumOpenedTabs': 5
+'zentabs':
+  'maximumOpenedTabs': 5
+'whitespace':
+  'ignoreWhitespaceOnCurrentLine': false
