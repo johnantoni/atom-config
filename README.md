@@ -35,6 +35,11 @@ enable REACT Editor to use the more experimental and somewhat faster editor
     CMD+R       = search symbols
     CMD+SHFT+R  = search tags
 
+#### Close Find/Replace panel
+
+    CMD+F       = open find/replace panel
+    ESC         = close find/replace panel
+
 #### Read more
 
 * git integration .. http://blog.atom.io/2014/03/13/git-integration.html
