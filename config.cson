@@ -38,24 +38,9 @@
     'solarized-light-syntax'
   ]
   'disabledPackages': [
-    'sublime-tabs'
   ]
 'tree-view':
   'hideIgnoredNames': true
-'atom-lint':
-  'ignoredNames': [
-    'tmp/**'
-  ]
-  'csslint':
-    'path': '/usr/local/bin/csslint'
-  'jshint':
-    'path': '/usr/local/bin/jshint'
-  'rubocop':
-    'path': '/Users/john/.rbenv/shims/rubocop'
-  'scss-lint':
-    'path': '/Users/john/.rbenv/shims/scss-lint'
-'zen-tabs':
-  'maximumOpenedTabs': 5
 'zentabs':
   'maximumOpenedTabs': 5
 'whitespace':
