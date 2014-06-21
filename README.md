@@ -45,6 +45,10 @@ enable REACT Editor to use the more experimental and somewhat faster editor
 * git integration .. http://blog.atom.io/2014/03/13/git-integration.html
 * git-grep .. https://github.com/mizchi/atom-git-grep
 
+#### Open in Atom - Alfred 2 workflow
+
+* [https://github.com/franzheidl/alfred-workflows/tree/master/open-with-atom](https://github.com/franzheidl/alfred-workflows/tree/master/open-with-atom)
+
 ## Copyright
 
 Copyright (c) 2014 John Griffiths. See [LICENSE](LICENSE) for details.
