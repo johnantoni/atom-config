@@ -15,7 +15,7 @@ This will install all packages you starred in your account on https://atom.io
 
 Really handy if you switch machines a lot.
 
-    apm stars --install
+    > apm stars --install
 
 #### linters
 
