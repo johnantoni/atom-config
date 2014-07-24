@@ -9,6 +9,14 @@ config files are kept in ~/.atom
 
 enable REACT Editor to use the more experimental and somewhat faster editor
 
+#### install all 'starred' packages
+
+This will install all packages you starred in your account on https://atom.io
+
+Really handy if you switch machines a lot.
+
+    apm stars --install
+
 #### linters
 
     -g = install globally
@@ -49,6 +57,6 @@ enable REACT Editor to use the more experimental and somewhat faster editor
 
 * [https://github.com/franzheidl/alfred-workflows/tree/master/open-with-atom](https://github.com/franzheidl/alfred-workflows/tree/master/open-with-atom)
 
-## Copyright
+### Copyright
 
 Copyright (c) 2014 John Griffiths. See [LICENSE](LICENSE) for details.
