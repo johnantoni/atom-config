@@ -2,10 +2,11 @@
 
     'linter-scss-lint':
       'scssLintExcludedLinters': [
-        'DeclarationOrder',
-        'EmptyLineBetweenBlocks',
-        'PropertySortOrder',
-        'LeadingZero'
+        'DeclarationOrder'
+        'EmptyLineBetweenBlocks'
+        'PropertySortOrder'
+        'LeadingZero',
+        'NameFormat'
       ]
 
 #### install gem
