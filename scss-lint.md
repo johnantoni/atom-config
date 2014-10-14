@@ -6,7 +6,10 @@
         'EmptyLineBetweenBlocks'
         'PropertySortOrder'
         'LeadingZero',
-        'NameFormat'
+        'NameFormat',
+        'SelectorDepth',
+        'SingleLinePerProperty',
+        'SingleLinePerSelector'
       ]
 
 #### install gem
