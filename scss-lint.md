@@ -5,11 +5,10 @@
         'DeclarationOrder'
         'EmptyLineBetweenBlocks'
         'PropertySortOrder'
-        'LeadingZero',
-        'NameFormat',
-        'SelectorDepth',
-        'SingleLinePerProperty',
+        'LeadingZero'
+        'SelectorDepth'
         'SingleLinePerSelector'
+        'SelectorFormat'
       ]
 
 #### install gem
