@@ -9,13 +9,37 @@
 #
 # Here's an example taken from Atom's built-in keymap:
 #
-# '.editor':
-#   'enter': 'editor:newline'
+#'.editor':
+#  'enter': 'editor:newline'
 #
 # 'body':
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
 
-'.autocomplete-plus input.hidden-input':
-  'enter': 'autocomplete-plus:confirm'
+# '.autocomplete-plus input.hidden-input':
+#   'enter': 'autocomplete-plus:confirm'
+
+# work around missing window pane bindings in vim-mode
+# '.vim-mode.command-mode:not(.mini)':
+#   'ctrl-w h': 'window:focus-pane-on-left'
+#   'ctrl-w left': 'window:focus-pane-on-left'
+#   'ctrl-w j': 'window:focus-pane-below'
+#   'ctrl-w down': 'window:focus-pane-below'
+#   'ctrl-w k': 'window:focus-pane-above'
+#   'ctrl-w up': 'window:focus-pane-above'
+#   'ctrl-w l': 'window:focus-pane-on-right'
+#   'ctrl-w right': 'window:focus-pane-on-right'
+#   'ctrl-w ctrl-w': 'window:focus-next-pane'
+#   'ctrl-w w': 'window:focus-next-pane'
+#   'ctrl-w ctrl-p': 'window:focus-previous-pane'
+#   'ctrl-w p': 'window:focus-previous-pane'
+#   'ctrl-w ctrl-c': 'pane:close'
+#   'ctrl-w c': 'pane:close'
+#   'ctrl-w q': 'core:close'
+
+'atom-text-editor[data-grammar="source css scss"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-text-editor[data-grammar="source stylus"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
