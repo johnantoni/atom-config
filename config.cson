@@ -1,49 +1,70 @@
-'exception-reporting':
-  'userId': 'e1ae7ba8-7194-e5b6-e3a2-31869e7eecf4'
-'release-notes':
-  'viewedVersion': '0.95.0'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': '5de72f6690b9288f94a2fe5dbdc4c35263ada564'
-'editor':
-  'fontSize': 13
-  'showInvisibles': true
-  'normalizeIndentOnPaste': false
-  'invisibles':
-    'cr': '↩'
-    'eol': ''
-    'space': '·'
-    'tab': '⇥'
-  'softWrap': true
-  'showIndentGuide': true
-'core':
-  'ignoredNames': [
-    '.git'
-    '.gems'
-    '.svn'
-    '.DS_Store'
-    '.gitkeep'
-    'tmp'
-    '.bundle'
-    'log'
-    'bundle'
-    '.sass-cache'
-    'node_modules'
-    '*.dump'
-    '*.pgdump'
-    '*.log'
-  ]
-  'projectHome': '/Users/john/projects'
-  'themes': [
-    'atom-light-ui'
-    'solarized-light-syntax'
-  ]
-  'disabledPackages': []
-  'useReactEditor': true
-'tree-view':
-  'hideIgnoredNames': true
-'zentabs':
-  'maximumOpenedTabs': 5
-'whitespace':
-  'ignoreWhitespaceOnCurrentLine': false
+"*":
+  "exception-reporting":
+    userId: "e1ae7ba8-7194-e5b6-e3a2-31869e7eecf4"
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "5de72f6690b9288f94a2fe5dbdc4c35263ada564"
+  editor:
+    fontSize: 14
+    showInvisibles: true
+    showIndentGuide: true
+    autoIndentOnPaste: false
+    softWrap: true
+    invisibles:
+      tab: "⇥"
+      cr: "↩"
+  core:
+    ignoredNames: [
+      ".git"
+      ".gems"
+      ".svn"
+      ".DS_Store"
+      ".gitkeep"
+      "tmp"
+      ".bundle"
+      "log"
+      "bundle"
+      ".sass-cache"
+      "node_modules"
+      "*.dump"
+      "*.pgdump"
+      "*.log"
+    ]
+    disabledPackages: [
+      "symbols-view"
+      "set-syntax"
+    ]
+    themes: [
+      "atom-dark-ui-slim"
+      "no-caffeine-syntax"
+    ]
+    projectHome: "/Users/john/projects"
+    audioBeep: false
+  "tree-view":
+    hideVcsIgnoredFiles: true
+    hideIgnoredNames: true
+  zentabs:
+    maximumOpenedTabs: 7
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "linter-scss-lint":
+    scssLintExcludedLinters: [
+      "DeclarationOrder"
+      "EmptyLineBetweenBlocks"
+      "PropertySortOrder"
+      "LeadingZero"
+      "SelectorDepth"
+      "SingleLinePerSelector"
+      "SelectorFormat"
+    ]
+  "linter-jshint":
+    ignoredNames: [
+      ".jade"
+    ]
+  linter: {}
+".source.stylus":
+  editor:
+    autoIndentOnPaste: false
